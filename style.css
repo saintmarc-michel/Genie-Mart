@@ -1,0 +1,726 @@
+/* css fichier */
+
+body {
+    overflow-x: hidden;
+  }
+/* container header */
+.container-header {
+    background-color: #288773;
+    position: relative;
+    z-index: 3;
+  }
+  .nav-image-text {
+    position: relative;
+    z-index: 3;
+  }
+  .navbar-nav a{
+    font-family: "Montserrat", sans-serif;
+    margin: 5px;
+  }
+.navbar-nav .btn{
+    width: 104px;
+    height: 42px;
+}
+  
+  /* titre header */
+  .titre-header {
+    font-family: "Montserrat", sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+  }
+
+/* input search */
+/* .input-warapper{
+  display: flex;
+  align-items: center;
+  background-color: white;
+
+}
+.input-warapper .fas{
+  color: #6E6E6E;
+}
+input{
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  border: none;
+  outline: none;
+} */
+  
+  /* header bloc right */
+  .img-header {
+    width: 30%;
+    z-index: 3;
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 16%;
+    transform: rotate(2deg);
+  }
+  
+  .opaciti-div {
+    opacity: 10%;
+    z-index: 1;
+    position: absolute;
+    overflow: hidden;
+    background-color: #ffffff;
+    width: 588px;
+    height: 588px;
+    margin-top: 1%;
+    margin-left: 13%;
+    clip-path: circle(50% at 50% 50%);
+  }
+  
+  .opaciti-div2 {
+    opacity: 20%;
+    z-index: 2;
+    position: absolute;
+    overflow: hidden;
+    background-color: #ffffff;
+    width: 330px;
+    height: 330px;
+    margin-top: 10%;
+    margin-left: 33%;
+    clip-path: circle(50% at 50% 50%);
+  }
+  .div-opaciti {
+    z-index: 2;
+    position: absolute;
+    overflow: hidden;
+    width: 102%;
+    margin-top: -50px;
+    margin-left: -2%;
+    height: 100px;
+    background-color: #a0d259;
+    transform: rotate(-2deg);
+  }
+  .div-opaciti2 {
+    z-index: 1;
+    position: absolute;
+    overflow: hidden;
+    margin-left: -2%;
+    width: 102%;
+    margin-top: 0px;
+    height: 100px;
+    background-color: #ffd451;
+    transform: rotate(-4deg);
+  }
+  
+  @media screen and (max-width: 2000px) and (min-width: 1400px) {
+    /* header bloc right */
+    .img-header {
+      width: 27%;
+      z-index: 3;
+      position: absolute;
+      margin-top: 5px;
+      margin-left: 20%;
+      transform: rotate(2deg);
+    }
+  }
+  
+  @media screen and (max-width: 1210px) and (min-width: 1000px) {
+    /* header bloc right */
+    .img-header {
+      width: 30%;
+      z-index: 3;
+      position: absolute;
+      margin-top: 79px;
+      margin-left: 16%;
+      transform: rotate(2deg);
+    }
+  }
+
+
+
+
+/* 4 block Groceries... */
+.four-grid-box{
+    margin-top: 230px;
+}
+.box{
+    font-family: 'Roboto', sans-serif;
+}
+.Groceries img{
+    padding: 31px;
+}
+.Groceries{
+    background: #FFF1DF;
+    border-radius: 12px;
+    border: 2px #F8D8AF solid;
+}
+.Groceries h1{
+    font-size: 23px;
+    font-weight: bold;
+}
+.Groceries p{
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFAB40;
+}
+/* box vegetables */
+.vegetables img{
+    padding: 31px;
+}
+.vegetables{
+    border: 2px;
+    background: #E8FBD7;
+    border-radius: 12px;
+    border: 2px #CAE9AE solid;
+}
+.vegetables h1{
+    font-size: 23px;
+    font-weight: bold;
+}
+.vegetables p{
+    font-size: 16px;
+    font-weight: bold;
+    color: #689F38;
+}
+/* box fruits */
+.fruits img{
+    padding: 31px;
+}
+.fruits{
+    border: 2px;
+    background: #FFF5C7;
+    border-radius: 12px;
+    border: 2px #F1E2A1 solid;
+}
+.fruits h1{
+    font-size: 23px;
+    font-weight: bold;
+}
+.fruits p{
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFB300;
+}
+/* box fish & meat */
+.fish-meat img{
+    padding: 31px;
+}
+.fish-meat{
+    border: 2px;
+    background: #E2F7FF;
+    border-radius: 12px;
+    border: 2px #BEE5F3 solid;
+}
+.fish-meat h1{
+    font-size: 23px;
+    font-weight: bold;
+}
+.fish-meat p{
+    font-size: 16px;
+    font-weight: bold;
+    color: #3DBFF0;
+}
+
+.carousel-control-prev-icon{
+  background-color: black;
+  border-radius: 50%;
+
+}
+.carousel-control-next-icon{
+  background-color: black;
+  border-radius: 50%;
+  
+}
+/* Top offres */
+.top-offres h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+}
+.top-offres-img{
+    cursor: pointer;
+}
+/* image-group */
+.image-group img{
+    width: 1296px;
+    cursor: pointer;
+}
+
+.fresh-fruits-vegetables h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+}
+.View-all{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    background: white;
+    border: #FFC000 1px solid;
+    border-radius: 4px;
+    width: 97px;
+    height: 35px;
+}
+.View-all:hover{
+    background: #FFC000;
+}
+.apples-cont{
+    position: relative;
+    margin-bottom: 108px;
+}
+.apples h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+.apples p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+.apples p span{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: italic;
+    color:#858585;
+    text-decoration:line-through;
+    margin-left: 10px;
+}
+
+#fruits-kg{
+    width:135px;
+    height: 32px;
+    border-radius: 4px;
+    border: #FFC000 1px solid;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.add-btn{
+    margin-left: 10px;
+    width: 123px;
+    height: 32px;
+    border-radius: 4px;
+    background:#FF6600 ;
+    border: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+}
+.add-btn:hover{
+    background: #ff66009c;
+}
+.percentage{
+    position: absolute;
+    top: 0;
+    background: #CBF8EF;
+    width: 65px;
+    height: 26px;
+    color: #118E74;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+/* app store */
+.border-yellow{
+    width: 100%;
+    background-color: #FFE699;
+    transform: skewY(-2deg);
+    position: relative;
+}
+.border-yellow .row{
+    transform: skewY(2deg);
+}
+/* phone image */
+.smart-phone{
+   background: url(./image/phone.png) no-repeat 50px 100px;
+}
+.shop_cart{
+    position: absolute;
+    background: url(./image/icon/22-Cart.png) no-repeat;
+    width: 188px;
+    height: 188px;
+    right: -69px;
+    bottom: -16px;
+}
+/* phone text */
+.phone-text{
+    margin: 100px 50px;
+}
+.phone-text h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+}
+.phone-text img{
+    margin-top: 15px;
+    cursor: pointer;
+}
+.phone-text img:nth-child(3){
+    margin-left: 60px;
+}
+.phone-text img:nth-child(3){
+    margin-left: 40px;
+}
+
+/* color-news-letter */
+.color-news-letter{
+    width: 85%;
+    background-color: #FFE699;
+    border-radius: 12px;
+    margin-top: 120px;
+    position: relative;
+}
+
+/* news-letter */
+.news-letter h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* button */
+.enter-your-email{
+    width: 412px;
+    height: 48px;
+    border-radius: 30px;
+    background: white;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: 13px;
+    padding: 0 25px;
+}
+.subsribe{
+    border-radius: 30px;
+    background: #212121;
+    color: white;
+    width: 110px;
+    height: 48px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: bolder;
+    margin-left: -114px;
+}
+
+.newsletter-mar{
+    margin-bottom: 100px;
+}
+.color-services{
+    background: #FAFAFA;
+}
+.services-image-one{
+    width: 70px;
+    height: 70px;
+    background: #FFE699;
+    border-radius: 10px;
+    background: #FFE699 url(image/icon/Group\-204.png) no-repeat center;
+    cursor: pointer;
+}
+.services-image-two{
+    width: 70px;
+    height: 70px;
+    background: #FFE699;
+    border-radius: 10px;
+    background: #FFE699 url(image/icon/noun_payment_2281176.png) no-repeat center;
+    cursor: pointer;
+}
+.services-image-three{
+    width: 70px;
+    height: 70px;
+    background: #FFE699;
+    border-radius: 10px;
+    background: #FFE699 url(image/icon/icons8-rupee.png) no-repeat center;
+    cursor: pointer;
+}
+.services-image-four{
+    width: 70px;
+    height: 70px;
+    background: #FFE699;
+    border-radius: 10px;
+    background: #FFE699 url(image/icon/icons8-vegetarian-food.png) no-repeat center;
+    cursor: pointer;
+}
+.service-text h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight:bold;
+    font-size: 16px;
+    margin-top: 15px;
+}
+.border-service .service-text{
+    text-align: center;
+}
+.border-service,
+.services-image-one,
+.services-image-two,
+.services-image-three,
+.services-image-four{
+    margin: auto;
+}
+.logo-footer img{
+    margin-bottom: 35px;
+    cursor: pointer;
+}
+.logo-footer h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    color: #858585;
+}
+.logo-footer ul{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+}
+.logo-footer ul li a{
+    color: #858585;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.genie h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #858585;
+}
+.genie ul{
+    text-decoration: none;
+    list-style: none;
+}
+.genie li a{
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    color: black;
+}
+.Shopping-online h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #858585;
+}
+.Shopping-online ul{
+    text-decoration: none;
+    list-style: none;
+}
+.Shopping-online li a{
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    color: black;
+}
+.Information h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #858585;
+}
+.Information ul{
+    text-decoration: none;
+    list-style: none;
+}
+.Information li a{
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    color: black;
+}
+.Contact h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #858585;
+}
+.Contact ul{
+    text-decoration: none;
+    list-style: none;
+}
+.Contact li a{
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    color: black;
+}
+
+.container-header {
+  background-color: #288773;
+  position: relative;
+  z-index: 3;
+}
+.nav-image-text {
+  position: relative;
+  z-index: 3;
+}
+
+.navbar-nav {
+  font-family: "Montserrat", sans-serif;
+}
+
+a.button3 {
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: 0.1em solid #ffffff;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 4px;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #288773;
+  background-color: #ffffff;
+  font-weight: 16px;
+}
+
+/* titre header */
+.titre-header {
+  font-family: "Montserrat", sans-serif;
+}
+
+.text-header-btn {
+  font-family: "Montserrat", sans-serif;
+  background: transparent;
+  border: none;
+  border-bottom: 1px dashed rgb(255, 255, 255);
+}
+
+/* input search */
+.stylish-input-group .input-group-addon {
+  background: url(./image/icon/icons8-search.png) no-repeat scroll 7px;
+  background-color: white;
+  border: none;
+  padding: 20px;
+}
+.stylish-input-group .input-group-addon1 {
+  background: url(./image/icon/icons8-gps.png) no-repeat scroll 7px 7px;
+  background-color: white;
+  border: none;
+  padding-left: 30px;
+}
+.stylish-input-group .form-control {
+  outline: none;
+  border-color: #ffffff;
+}
+.stylish-input-group button {
+  border: 0;
+  background: transparent;
+}
+
+.right-container {
+  height: 330px;
+}
+
+/* header bloc right */
+.img-header {
+  width: 30%;
+  z-index: 3;
+  position: absolute;
+  margin-top: 2%;
+  margin-left: 16%;
+  transform: rotate(2deg);
+}
+
+.opaciti-div {
+  opacity: 10%;
+  z-index: 1;
+  position: absolute;
+  overflow: hidden;
+  background-color: #ffffff;
+  width: 588px;
+  height: 588px;
+  margin-top: 1%;
+  margin-left: 9%;
+  clip-path: circle(50% at 50% 50%);
+}
+
+.opaciti-div2 {
+  opacity: 20%;
+  z-index: 2;
+  position: absolute;
+  overflow: hidden;
+  background-color: #ffffff;
+  width: 330px;
+  height: 330px;
+  margin-top: 10%;
+  margin-left: 25%;
+  clip-path: circle(50% at 50% 50%);
+}
+.div-opaciti {
+  z-index: 2;
+  position: absolute;
+  overflow: hidden;
+  width: 102%;
+  margin-top: -50px;
+  margin-left: -2%;
+  height: 100px;
+  background-color: #a0d259;
+  transform: rotate(-2deg);
+}
+.div-opaciti2 {
+  z-index: 1;
+  position: absolute;
+  overflow: hidden;
+  margin-left: -2%;
+  width: 102%;
+  margin-top: 0px;
+  height: 100px;
+  background-color: #ffd451;
+  transform: rotate(-4deg);
+}
+
+@media screen and (max-width: 2000px) and (min-width: 1400px) {
+  /* header bloc right */
+  .img-header {
+    width: 27%;
+    z-index: 3;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 20%;
+    transform: rotate(2deg);
+  }
+  #navbarNavAltMarkup {
+    display: flex;
+    justify-content: end;
+  }
+}
+
+@media screen and (max-width: 1210px) and (min-width: 1000px) {
+  /* header bloc right */
+  .img-header {
+    width: 30%;
+    z-index: 3;
+    position: absolute;
+    margin-top: 79px;
+    margin-left: 16%;
+    transform: rotate(2deg);
+  }
+  #navbarNavAltMarkup {
+    display: flex;
+    justify-content: end;
+  }
+}
+
+@media screen and (max-width: 1300px) and (min-width: 990px) {
+  #navbarNavAltMarkup {
+    display: flex;
+    justify-content: end;
+  }
+}
+
+@media all and (max-width: 990px) {
+  a.button3 {
+    margin: 0.1em auto;
+    margin-bottom: 5px;
+    margin-left: -1%;
+  }
+}
+
+/* .copyright{
+    height: 1px;
+    width: 100%px;
+    color: #EBEBEB;
+} */
+.copy h1{
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    color: #AEAEAE;
+    text-align: center;
+}
